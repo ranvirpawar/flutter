@@ -11,15 +11,18 @@ void main() {
           title: const Row(
             children: [
               StyledText(
-                'goodmorning',
+                'Rolling Star',
               ),
             ],
             crossAxisAlignment: CrossAxisAlignment.center,
           ),
-          shadowColor: Color.fromARGB(23, 23, 233, 323),
+          shadowColor: const Color.fromARGB(23, 23, 233, 323),
           backgroundColor: Colors.black,
         ),
-        body: GradientContainer(Color.fromARGB(255, 102, 37, 167), Colors.pink),
+        body: GradientContainer(
+          const Color.fromARGB(255, 102, 37, 167),
+          Colors.pink,
+        ),
       ),
     ),
   );
